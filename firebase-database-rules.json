@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "ev_telemetry": {
+      ".read": true,
+      "current": {
+        ".write": true
+      },
+      "history": {
+        ".write": true,
+        ".indexOn": ["timestamp"]
+      }
+    },
+    "ev_telemetry2": {
+      ".read": true,
+      "current": {
+        ".write": true
+      },
+      "history": {
+        ".write": true,
+        ".indexOn": ["timestamp"]
+      }
+    }
+  }
+}
